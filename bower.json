@@ -1,0 +1,16 @@
+{
+  "name": "Wozew",
+  "version": "0.0.1",
+  "description": "A responsive CSS Framework that helps you with grids, forms, tables and browser consistency",
+  "ignore": [
+    ".grunt",
+    "node_modules"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-contrib-cssmin": "~0.6.1"
+  }
+}
