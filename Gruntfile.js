@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
   "use strict";
 
-  var itsbeen = "   "
+  var itsbeen = " * "
     , st = new Date(1378438867382)
     , ct = new Date()
     , diff = {
@@ -24,14 +24,14 @@ module.exports = function(grunt) {
 
     pkg: grunt.file.readJSON("package.json"),
 
-    banner: "/* ========================= \n" +
-      "   <%= pkg.title %> - v<%= pkg.version %>\n" +
-      "   ========================= \n" + 
-      "   <%= grunt.template.today(\"yyyy-mm-dd\") %>\n" +
+    banner: "/*! \n * ========================= \n" +
+      " * <%= pkg.title %> - v<%= pkg.version %>\n" +
+      " * ========================= \n" + 
+      " * <%= grunt.template.today(\"yyyy-mm-dd\") %>\n" +
       itsbeen +
-      "   http://erikroyall.github.com/<%= pkg.name %>/\n" +
-      "   Copyright (c) 2013 Erik Royall\n" +
-      "   Licensed under <%= pkg.license %> (see LICENSE-MIT) \n*/\n\n",
+      " * http://erikroyall.github.com/<%= pkg.name %>/\n" +
+      " * Copyright (c) 2013 Erik Royall\n" +
+      " * Licensed under <%= pkg.license %> (see LICENSE-MIT) \n */\n\n\r",
 
     concat: {
       options: {
@@ -40,7 +40,8 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
-          "src/base.css"
+          "src/base.css",
+          "src/grid.css"
         ],
         dest: "dist/<%= pkg.name %>.css"
       }
@@ -66,11 +67,8 @@ module.exports = function(grunt) {
 
     cssmin: {
       add_banner: {
-        options: {
-          banner: "<%= banner %>"
-        },
         files: {
-          "<%= pkg.name %>.min.css": ["<%= concat.dist.dest %>"]
+          "dist/<%= pkg.name %>.min.css": ["<%= concat.dist.dest %>"]
         }
       }
     },
