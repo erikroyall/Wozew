@@ -1,0 +1,37 @@
+{
+  "name": "wozew",
+  "title": "Wozew",
+  "description": "A responsive CSS Framework that helps you with grids, forms, tables and browser consistency",
+  "version": "0.0.1",
+  "homepage": "https://github.com/erikroyall/Wozew",
+  "author": {
+    "name": "Erik Royall",
+    "email": "erikroyall@hotmail.com",
+    "url": "http://erikroyall.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erikroyall/Wozew.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erikroyall/Wozew/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/erikroyall/Wozew/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-contrib-cssmin": "~0.6.1"
+  },
+  "keywords": [
+    "Grid System",
+    "Framework",
+    "CSS"
+  ]
+}
