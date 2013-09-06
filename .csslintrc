@@ -1,0 +1,7 @@
+{
+  "universal-selector": false,
+  "box-sizing": false,
+  "unique-headings": false,
+  "qualified-headings": false,
+  "unqualified-attributes": false
+}
