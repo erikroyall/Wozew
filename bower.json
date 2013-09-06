@@ -4,7 +4,8 @@
   "description": "A responsive CSS Framework that helps you with grids, forms, tables and browser consistency",
   "ignore": [
     ".grunt",
-    "node_modules"
+    "node_modules",
+    "*.sublime-*"
   ],
   "devDependencies": {
     "grunt": "~0.4.1",
