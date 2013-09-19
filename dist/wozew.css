@@ -9,7 +9,8 @@
  * Licensed under  (see LICENSE-MIT) 
  */
 
-*,
+
+*,
 *:after,
 *:before {
   -webkit-box-sizing: border-box;
@@ -28,7 +29,8 @@ body {
 }
 
 html,
-body,article,
+body,
+article,
 aside,
 details,
 figcaption,
