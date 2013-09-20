@@ -31,7 +31,7 @@ module.exports = function(grunt) {
       itsbeen +
       " * http://erikroyall.github.com/<%= pkg.name %>/\n" +
       " * Copyright (c) 2013 Erik Royall\n" +
-      " * Licensed under <%= pkg.license %> (see LICENSE-MIT) \n */\n\n\r",
+      " * Licensed under <%= pkg.license %> (see LICENSE-MIT) \n */\n\r",
 
     concat: {
       options: {
