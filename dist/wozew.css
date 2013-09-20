@@ -2,13 +2,12 @@
  * ========================= 
  * Wozew - v0.0.1
  * ========================= 
- * 2013-09-19
- * Project started before 13 days
+ * 2013-09-20
+ * Project started before 14 days
  * http://erikroyall.github.com/wozew/
  * Copyright (c) 2013 Erik Royall
  * Licensed under  (see LICENSE-MIT) 
  */
-
 *,
 *:after,
 *:before {
@@ -27,8 +26,7 @@ body {
   font-family: sans-serif;
 }
 
-html,
-body,article,
+article,
 aside,
 details,
 figcaption,
@@ -155,7 +153,6 @@ a:visited {
   color: #0f0;
   border-bottom: 1px solid #0f0;
 }
-
 
 .w-1,
 .w-1-2,
