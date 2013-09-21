@@ -2,6 +2,16 @@
  * Grid System
  */
 
+/*
+ * Implementation details:
+ * 
+ * 1. .w-* shrink in browsers having width less then 640px
+ * 2. .u-* never shrink
+ *
+ * Use .w-* for site layout, and other things that can be shrunk
+ * Use .u-* for layouts that cannot be shrunk. For eg. button placement in widgets
+ */
+
 .w-1,
 .w-1-2,
 .w-1-3,
