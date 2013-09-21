@@ -2,8 +2,8 @@
  * ========================= 
  * Wozew - v0.0.1
  * ========================= 
- * 2013-09-20
- * Project started before 14 days
+ * 2013-09-22
+ * Project started before 16 days
  * http://erikroyall.github.com/wozew/
  * Copyright (c) 2013 Erik Royall
  * Licensed under  (see LICENSE-MIT) 
@@ -153,6 +153,16 @@ a:visited {
   color: #0f0;
   border-bottom: 1px solid #0f0;
 }
+
+/*
+ * Implementation details:
+ * 
+ * 1. .w-* shrink in browsers having width less then 640px
+ * 2. .u-* never shrink
+ *
+ * Use .w-* for site layout, and other things that can be shrunk
+ * Use .u-* for layouts that cannot be shrunk. For eg. button placement in widgets
+ */
 
 .w-1,
 .w-1-2,
